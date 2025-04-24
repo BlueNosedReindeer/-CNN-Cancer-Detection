@@ -1,2 +1,2 @@
-# -CNN-Cancer-Detection
-This Kaggle competition is a binary image classification problem where I will identify metastatic cancer in small image patches taken from larger digital pathology scans.
+# CNN-Cancer-Detection
+This project was developed for the Kaggle Histopathologic Cancer Detection competition. It tackles a binary image classification task, where the goal is to detect metastatic cancer in histopathologic image patches of lymph node tissue. Using transfer learning with EfficientNetB0, the model is trained to classify each image tile as either cancerous or non-cancerous. The pipeline includes data preprocessing, augmentation, model training with class balancing, and evaluation through AUC and ROC analysis. The final model generates predictions formatted for Kaggle competition submission.
